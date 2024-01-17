@@ -15,7 +15,7 @@ th {
   font-size: 1.5vw;
 }
 .black-bg {
-  background-color: rgb(13, 13, 13);
+  background-color: #093d44;
   color: white;
 }
 .races {
@@ -70,6 +70,18 @@ th {
   height: auto;
   width: auto;
 }
+.ContactForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContactForm > input, .ContactForm > textarea{
+  width: 30vw;
+}
+.ContactForm > textarea{
+  height: 20vh;
+}
 .brunch > img {
   width: 100vw;
 }
@@ -113,6 +125,12 @@ th {
   }
   #down {
     height: 90vh;
+  }
+  .ContactForm > input, .ContactForm > textarea{
+    width: 60vw;
+  }
+  .ContactForm > textarea{
+    height: 10vh;
   }
 }
 .colonels {
