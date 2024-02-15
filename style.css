@@ -1,5 +1,6 @@
 .navbar {
   padding: auto;
+  font-size: 150%;
 }
 footer{
   background-color: rgb(234, 119, 119);
@@ -9,10 +10,11 @@ footer{
   align-items: center;
   justify-content: center;
 }
-.SHCS {
+.SHCS{
   background-color: rgb(234, 119, 119);
   padding: 10px;
   color: rgb(255, 255, 255);
+  font-size: 100%;
 }
 .SHCS:hover{
   color: rgb(234, 119, 119);
@@ -28,7 +30,7 @@ th {
   font-size: 1.5vw;
 }
 .black-bg {
-  background-color: #093d44;
+  background-color: #ea4741;
   color: white;
 }
 .races {
