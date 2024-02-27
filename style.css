@@ -6,7 +6,7 @@
   padding: auto;
   font-size: 150%;
 }
-footer{
+footer{ /*this is my footer ruleset*/
   background-color: rgb(234, 119, 119);
   color: white;
   display: flex;
@@ -14,13 +14,13 @@ footer{
   align-items: center;
   justify-content: center;
 }
-.SHCS{
+.SHCS{ /*this is my background ruleset*/
   background-color: rgb(234, 119, 119);
   padding: 10px;
   color: rgb(255, 255, 255);
   font-size: 100%;
 }
-.SHCS:hover{
+.SHCS:hover{ /*this is my pseudoselector ruleset*/
   color: rgb(234, 119, 119);
   background-color: transparent;
   border-color: rgb(234, 119, 119);
@@ -57,7 +57,7 @@ th {
   height: 25%;
   background-color: rgba(147, 151, 153, 0.5);
 }
-.centered > h1 {
+.centered > h1 { /*this is my text ruleset*/
   font-size: 2vw;
 }
 .centered > p {
@@ -85,7 +85,7 @@ th {
   font-size: 36px;
   padding: 10px;
 }
-.a {
+.a { /*this is my link ruleset*/
   text-decoration: none;
   padding: 2%;
   border-radius: 12px;
