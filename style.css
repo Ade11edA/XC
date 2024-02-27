@@ -63,6 +63,23 @@ th {
 .centered > p {
   font-size: 1.5vw;
 }
+.centered2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -100%);
+  width: 25%;
+  height: 20%;
+  background-color: rgba(95, 98, 99, 0.5);
+}
+.centered2 > h1 { /*this is my text ruleset*/
+  font-size: 2vw;
+}
+.centered2 > p {
+  font-size: 1.5vw;
+}
 .white {
   color: white;
   background-color: rgb(234, 119, 119);
@@ -84,6 +101,9 @@ th {
 #down>h2{
   font-size: 36px;
   padding: 10px;
+}
+.friends{
+  width: 100vw;
 }
 .a { /*this is my link ruleset*/
   text-decoration: none;
@@ -137,6 +157,16 @@ th {
     align-items: center;
     top: 75%;
   }
+  .centered2 {
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 75%;
+    transform: translate(-50%, -250%);
+  }
   .mobile{
     display: none;
   }
@@ -145,6 +175,12 @@ th {
   }
   .centered > h1 {
     font-size: 5vw;
+  }
+  .centered2 > p {
+    font-size: 3vw;
+  }
+  .centered2 > h1 {
+    font-size: 3vw;
   }
   th {
     padding: 5%;
@@ -158,6 +194,9 @@ th {
   }
   .ContactForm > textarea{
     height: 10vh;
+  }
+  footer{
+    height: 25vh;
   }
 }
 .colonels {
