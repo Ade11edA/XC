@@ -1,13 +1,23 @@
 /*this is my google font*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
   font-family: "Rubik", sans-serif;
 }
 .navbar {
   padding: auto;
   font-size: 150%;
 }
-footer{ /*this is my footer ruleset*/
+.duck {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.duck > * {
+  margin: 10px;
+}
+footer {
+  /*this is my footer ruleset*/
   background-color: rgb(234, 119, 119);
   color: white;
   display: flex;
@@ -15,13 +25,15 @@ footer{ /*this is my footer ruleset*/
   align-items: center;
   justify-content: center;
 }
-.SHCS{ /*this is my background ruleset*/
+.SHCS {
+  /*this is my background ruleset*/
   background-color: rgb(234, 119, 119);
   padding: 10px;
   color: rgb(255, 255, 255);
   font-size: 100%;
 }
-.SHCS:hover{ /*this is my pseudoselector ruleset*/
+.SHCS:hover {
+  /*this is my pseudoselector ruleset*/
   color: rgb(234, 119, 119); /*Color Ruleset */
   background-color: transparent;
   border-color: rgb(234, 119, 119);
@@ -58,7 +70,8 @@ th {
   height: 25%;
   background-color: rgba(147, 151, 153, 0.5);
 }
-.centered > h1 { /*this is my text ruleset*/
+.centered > h1 {
+  /*this is my text ruleset*/
   font-size: 2vw;
 }
 .centered > p {
@@ -75,7 +88,8 @@ th {
   height: 20%;
   background-color: rgba(95, 98, 99, 0.5);
 }
-.centered2 > h1 { /*this is my text ruleset*/
+.centered2 > h1 {
+  /*this is my text ruleset*/
   font-size: 2vw;
 }
 .centered2 > p {
@@ -85,7 +99,7 @@ th {
   color: white;
   background-color: rgb(234, 119, 119);
 }
-#down{
+#down {
   display: flex;
   flex-direction: column;
   background-color: rgba(11, 10, 10, 0.5);
@@ -96,17 +110,18 @@ th {
   max-width: 100%;
   height: 90vh;
 }
-#down>p{
+#down > p {
   font-size: 24px;
 }
-#down>h2{
+#down > h2 {
   font-size: 36px;
   padding: 10px;
 }
-.friends{
+.friends {
   width: 100vw;
 }
-.a { /*this is my link ruleset*/
+.a {
+  /*this is my link ruleset*/
   text-decoration: none;
   padding: 2%;
   border-radius: 12px;
@@ -116,16 +131,17 @@ th {
   height: auto;
   width: auto;
 }
-.ContactForm{
+.ContactForm {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.ContactForm > input, .ContactForm > textarea{
+.ContactForm > input,
+.ContactForm > textarea {
   width: 30vw;
 }
-.ContactForm > textarea{
+.ContactForm > textarea {
   height: 20vh;
 }
 .brunch > img {
@@ -168,7 +184,7 @@ th {
     top: 75%;
     transform: translate(-50%, -250%);
   }
-  .mobile{
+  .mobile {
     display: none;
   }
   .centered > p {
@@ -190,13 +206,14 @@ th {
   #down {
     height: 90vh;
   }
-  .ContactForm > input, .ContactForm > textarea{
+  .ContactForm > input,
+  .ContactForm > textarea {
     width: 60vw;
   }
-  .ContactForm > textarea{
+  .ContactForm > textarea {
     height: 10vh;
   }
-  footer{
+  footer {
     height: 25vh;
   }
 }
